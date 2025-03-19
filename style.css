@@ -1,0 +1,59 @@
+/* Set a background image */
+body {
+    background-image: url('https://www.freepik.com/free-photo/clapperboard-spilled-popcorn_1452468.htm#fromView=keyword&page=1&position=3&uuid=a4458b6d-8be0-4665-b519-ba6e006020ed&query=Movie+Recommendation+System'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Style the header */
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Style the select box */
+.stSelectbox > div > div > select {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Style the button */
+.stButton > button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #45a049;
+}
+
+/* Style the recommended movies list */
+.stMarkdown > div > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.stMarkdown > div > ul > li {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #333;
+}
